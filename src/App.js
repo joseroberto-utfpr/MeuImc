@@ -24,7 +24,7 @@ const App = () => {
         <MyInput rotulo="Peso" valor={peso} setText={setPeso} />
         <MyInput rotulo="Altura" valor={altura} setText={setAltura} />
       </View>
-
+      {/* botão para calcular o imc */}
       <TouchableOpacity style={styles.button} onPress={calcularIMC}>
         <Text style={styles.buttonText}>CALCULAR</Text>
       </TouchableOpacity>
